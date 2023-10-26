@@ -12,15 +12,6 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
 # Building the Webcam Node
   Follow the steps below to build the project:
 
-
-<pre>
-<code id="code-snippet">
-git clone https://github.com/antmicro/ros2-camera-node.git
-cd access_ws
-
-</code>
-</pre>
-
 <button class="btn" data-clipboard-target="#code-snippet">Copy</button>
 
 <script>
