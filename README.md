@@ -20,4 +20,4 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
 git clone https://github.com/antmicro/ros2-camera-node.git
 cd ros2-camera-node/
 
-Markup :  [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+ [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
