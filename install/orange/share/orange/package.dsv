@@ -1,0 +1,6 @@
+source;share/orange/hook/pythonpath.ps1
+source;share/orange/hook/pythonpath.dsv
+source;share/orange/hook/pythonpath.sh
+source;share/orange/hook/ament_prefix_path.ps1
+source;share/orange/hook/ament_prefix_path.dsv
+source;share/orange/hook/ament_prefix_path.sh

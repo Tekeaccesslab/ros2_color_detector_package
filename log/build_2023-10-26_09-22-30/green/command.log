@@ -1,0 +1,6 @@
+Invoking command in '/home/accesslabros2/access_ws/build/green': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/accesslabros2/access_ws/src/green -DCMAKE_INSTALL_PREFIX=/home/accesslabros2/access_ws/install/green
+Invoked command in '/home/accesslabros2/access_ws/build/green' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/accesslabros2/access_ws/src/green -DCMAKE_INSTALL_PREFIX=/home/accesslabros2/access_ws/install/green
+Invoking command in '/home/accesslabros2/access_ws/build/green': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/accesslabros2/access_ws/build/green -- -j20 -l20
+Invoked command in '/home/accesslabros2/access_ws/build/green' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/accesslabros2/access_ws/build/green -- -j20 -l20
+Invoking command in '/home/accesslabros2/access_ws/build/green': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/accesslabros2/access_ws/build/green
+Invoked command in '/home/accesslabros2/access_ws/build/green' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/accesslabros2/access_ws/build/green

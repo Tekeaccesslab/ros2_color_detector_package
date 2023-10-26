@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/orange/orange.egg-info
+writing ../../build/orange/orange.egg-info/PKG-INFO
+writing dependency_links to ../../build/orange/orange.egg-info/dependency_links.txt
+writing entry points to ../../build/orange/orange.egg-info/entry_points.txt
+writing requirements to ../../build/orange/orange.egg-info/requires.txt
+writing top-level names to ../../build/orange/orange.egg-info/top_level.txt
+writing manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+reading manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+writing manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/accesslabros2/access_ws/build/orange/build
+creating /home/accesslabros2/access_ws/build/orange/build/lib
+creating /home/accesslabros2/access_ws/build/orange/build/lib/orange
+copying orange/webcam_driver.py -> /home/accesslabros2/access_ws/build/orange/build/lib/orange
+copying orange/__init__.py -> /home/accesslabros2/access_ws/build/orange/build/lib/orange
+running install
+running install_lib
+creating /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange
+copying /home/accesslabros2/access_ws/build/orange/build/lib/orange/webcam_driver.py -> /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange
+copying /home/accesslabros2/access_ws/build/orange/build/lib/orange/__init__.py -> /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange
+byte-compiling /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange/webcam_driver.py to webcam_driver.cpython-310.pyc
+byte-compiling /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/accesslabros2/access_ws/install/orange/share/ament_index
+creating /home/accesslabros2/access_ws/install/orange/share/ament_index/resource_index
+creating /home/accesslabros2/access_ws/install/orange/share/ament_index/resource_index/packages
+copying resource/orange -> /home/accesslabros2/access_ws/install/orange/share/ament_index/resource_index/packages
+copying package.xml -> /home/accesslabros2/access_ws/install/orange/share/orange
+running install_egg_info
+Copying ../../build/orange/orange.egg-info to /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange-0.0.0-py3.10.egg-info
+running install_scripts
+Installing webcam_driver script to /home/accesslabros2/access_ws/install/orange/lib/orange
+writing list of installed files to '/home/accesslabros2/access_ws/build/orange/install.log'

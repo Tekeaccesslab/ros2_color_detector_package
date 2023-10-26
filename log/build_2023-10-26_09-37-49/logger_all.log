@@ -1,0 +1,263 @@
+[0.435s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.435s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faf8a8ba590>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faf8a8b83d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faf8a8b83d0>>)
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.455s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/accesslabros2/access_ws'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_launch' with type 'ros.ament_cmake' and name 'cpp_launch'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/green) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/green' with type 'ros.ament_cmake' and name 'green'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/orange) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/orange' with type 'ros.ament_python' and name 'orange'
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.516s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/accesslabros2/access_ws/install
+[0.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.560s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'orange' is in: /home/accesslabros2/access_ws/install/orange
+	'green' is in: /home/accesslabros2/access_ws/install/green
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding green orange
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'green' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'green' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/accesslabros2/access_ws/build/green', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/accesslabros2/access_ws/install/green', 'merge_install': False, 'path': '/home/accesslabros2/access_ws/src/green', 'symlink_install': False, 'test_result_base': None}
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'cmake_target' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'ament_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'catkin_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'orange' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.573s] DEBUG:colcon.colcon_core.verb:Building package 'orange' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/accesslabros2/access_ws/build/orange', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/accesslabros2/access_ws/install/orange', 'merge_install': False, 'path': '/home/accesslabros2/access_ws/src/orange', 'symlink_install': False, 'test_result_base': None}
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'cmake_target' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.579s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/accesslabros2/access_ws/build/cpp_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/accesslabros2/access_ws/install/cpp_launch', 'merge_install': False, 'path': '/home/accesslabros2/access_ws/src/cpp_launch', 'symlink_install': False, 'test_result_base': None}
+[0.585s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/accesslabros2/access_ws/src/green' with build type 'ament_cmake'
+[0.592s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/accesslabros2/access_ws/src/green'
+[0.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.618s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/accesslabros2/access_ws/src/orange' with build type 'ament_python'
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('orange', 'ament_prefix_path')
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/orange/share/orange/hook/ament_prefix_path.ps1'
+[0.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/accesslabros2/access_ws/install/orange/share/orange/hook/ament_prefix_path.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/orange/share/orange/hook/ament_prefix_path.sh'
+[0.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/accesslabros2/access_ws/build/green': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --build /home/accesslabros2/access_ws/build/green -- -j20 -l20
+[0.785s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/accesslabros2/access_ws/src/orange'
+[0.792s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/accesslabros2/access_ws/build/green' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --build /home/accesslabros2/access_ws/build/green -- -j20 -l20
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/accesslabros2/access_ws/build/green': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --install /home/accesslabros2/access_ws/build/green
+[0.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(green)
+[0.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/accesslabros2/access_ws/build/green' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --install /home/accesslabros2/access_ws/build/green
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green' for CMake module files
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green' for CMake config files
+[0.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('green', 'cmake_prefix_path')
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/green/share/green/hook/cmake_prefix_path.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/accesslabros2/access_ws/install/green/share/green/hook/cmake_prefix_path.dsv'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/green/share/green/hook/cmake_prefix_path.sh'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/lib'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/bin'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/lib/pkgconfig/green.pc'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/lib/python3.10/site-packages'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/bin'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/green/share/green/package.ps1'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/accesslabros2/access_ws/install/green/share/green/package.dsv'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/green/share/green/package.sh'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/green/share/green/package.bash'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/green/share/green/package.zsh'
+[0.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/accesslabros2/access_ws/install/green/share/colcon-core/packages/green)
+[0.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(green)
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green' for CMake module files
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green' for CMake config files
+[0.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('green', 'cmake_prefix_path')
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/green/share/green/hook/cmake_prefix_path.ps1'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/accesslabros2/access_ws/install/green/share/green/hook/cmake_prefix_path.dsv'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/green/share/green/hook/cmake_prefix_path.sh'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/lib'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/bin'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/lib/pkgconfig/green.pc'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/lib/python3.10/site-packages'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/green/bin'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/green/share/green/package.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/accesslabros2/access_ws/install/green/share/green/package.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/green/share/green/package.sh'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/green/share/green/package.bash'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/green/share/green/package.zsh'
+[0.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/accesslabros2/access_ws/install/green/share/colcon-core/packages/green)
+[0.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/accesslabros2/access_ws/src/orange': PYTHONPATH=/home/accesslabros2/access_ws/build/orange/prefix_override:/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/orange build --build-base /home/accesslabros2/access_ws/build/orange/build install --record /home/accesslabros2/access_ws/build/orange/install.log --single-version-externally-managed
+[1.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/accesslabros2/access_ws/src/orange' returned '0': PYTHONPATH=/home/accesslabros2/access_ws/build/orange/prefix_override:/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/orange build --build-base /home/accesslabros2/access_ws/build/orange/build install --record /home/accesslabros2/access_ws/build/orange/install.log --single-version-externally-managed
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/orange' for CMake module files
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/orange' for CMake config files
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/orange/lib'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/orange/bin'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/orange/lib/pkgconfig/orange.pc'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages'
+[1.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('orange', 'pythonpath')
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/orange/share/orange/hook/pythonpath.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/accesslabros2/access_ws/install/orange/share/orange/hook/pythonpath.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/orange/share/orange/hook/pythonpath.sh'
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/orange/bin'
+[1.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orange)
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/orange/share/orange/package.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/accesslabros2/access_ws/install/orange/share/orange/package.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/orange/share/orange/package.sh'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/orange/share/orange/package.bash'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/orange/share/orange/package.zsh'
+[1.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/accesslabros2/access_ws/install/orange/share/colcon-core/packages/orange)
+[1.150s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/accesslabros2/access_ws/src/cpp_launch' with build type 'ament_cmake'
+[1.150s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/accesslabros2/access_ws/src/cpp_launch'
+[1.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/accesslabros2/access_ws/build/cpp_launch': AMENT_PREFIX_PATH=/home/accesslabros2/access_ws/install/orange:/home/accesslabros2/access_ws/install/cpp_launch:/home/accesslabros2/access_ws/install/cpp_launcher:/home/accesslabros2/access_ws/install/green:/opt/ros/humble CMAKE_PREFIX_PATH=/home/accesslabros2/access_ws/install/green:/home/accesslabros2/access_ws/install/cpp_launch:/home/accesslabros2/access_ws/install/cpp_launcher:/opt/intel/oneapi/tbb/2021.10.0/env/..:/opt/intel/oneapi/ipp/2021.9.0/lib/cmake/ipp:/opt/intel/oneapi/ipp/2021.9.0/lib/cmake/ipp:/opt/intel/oneapi/dnnl/2023.2.0/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/opt/intel/oneapi/dal/2023.2.0:/opt/intel/oneapi/compiler/2023.2.1/linux/IntelDPCPP:/opt/intel/oneapi/ccl/2021.10.0/lib/cmake/oneCCL:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --build /home/accesslabros2/access_ws/build/cpp_launch -- -j20 -l20
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/accesslabros2/access_ws/build/cpp_launch' returned '0': AMENT_PREFIX_PATH=/home/accesslabros2/access_ws/install/orange:/home/accesslabros2/access_ws/install/cpp_launch:/home/accesslabros2/access_ws/install/cpp_launcher:/home/accesslabros2/access_ws/install/green:/opt/ros/humble CMAKE_PREFIX_PATH=/home/accesslabros2/access_ws/install/green:/home/accesslabros2/access_ws/install/cpp_launch:/home/accesslabros2/access_ws/install/cpp_launcher:/opt/intel/oneapi/tbb/2021.10.0/env/..:/opt/intel/oneapi/ipp/2021.9.0/lib/cmake/ipp:/opt/intel/oneapi/ipp/2021.9.0/lib/cmake/ipp:/opt/intel/oneapi/dnnl/2023.2.0/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/opt/intel/oneapi/dal/2023.2.0:/opt/intel/oneapi/compiler/2023.2.1/linux/IntelDPCPP:/opt/intel/oneapi/ccl/2021.10.0/lib/cmake/oneCCL:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --build /home/accesslabros2/access_ws/build/cpp_launch -- -j20 -l20
+[1.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/accesslabros2/access_ws/build/cpp_launch': AMENT_PREFIX_PATH=/home/accesslabros2/access_ws/install/orange:/home/accesslabros2/access_ws/install/cpp_launch:/home/accesslabros2/access_ws/install/cpp_launcher:/home/accesslabros2/access_ws/install/green:/opt/ros/humble CMAKE_PREFIX_PATH=/home/accesslabros2/access_ws/install/green:/home/accesslabros2/access_ws/install/cpp_launch:/home/accesslabros2/access_ws/install/cpp_launcher:/opt/intel/oneapi/tbb/2021.10.0/env/..:/opt/intel/oneapi/ipp/2021.9.0/lib/cmake/ipp:/opt/intel/oneapi/ipp/2021.9.0/lib/cmake/ipp:/opt/intel/oneapi/dnnl/2023.2.0/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/opt/intel/oneapi/dal/2023.2.0:/opt/intel/oneapi/compiler/2023.2.1/linux/IntelDPCPP:/opt/intel/oneapi/ccl/2021.10.0/lib/cmake/oneCCL:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --install /home/accesslabros2/access_ws/build/cpp_launch
+[1.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_launch)
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/accesslabros2/access_ws/build/cpp_launch' returned '0': AMENT_PREFIX_PATH=/home/accesslabros2/access_ws/install/orange:/home/accesslabros2/access_ws/install/cpp_launch:/home/accesslabros2/access_ws/install/cpp_launcher:/home/accesslabros2/access_ws/install/green:/opt/ros/humble CMAKE_PREFIX_PATH=/home/accesslabros2/access_ws/install/green:/home/accesslabros2/access_ws/install/cpp_launch:/home/accesslabros2/access_ws/install/cpp_launcher:/opt/intel/oneapi/tbb/2021.10.0/env/..:/opt/intel/oneapi/ipp/2021.9.0/lib/cmake/ipp:/opt/intel/oneapi/ipp/2021.9.0/lib/cmake/ipp:/opt/intel/oneapi/dnnl/2023.2.0/cpu_dpcpp_gpu_dpcpp/../lib/cmake:/opt/intel/oneapi/dal/2023.2.0:/opt/intel/oneapi/compiler/2023.2.1/linux/IntelDPCPP:/opt/intel/oneapi/ccl/2021.10.0/lib/cmake/oneCCL:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --install /home/accesslabros2/access_ws/build/cpp_launch
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch' for CMake module files
+[1.255s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch' for CMake config files
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_launch', 'cmake_prefix_path')
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/hook/cmake_prefix_path.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/hook/cmake_prefix_path.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/hook/cmake_prefix_path.sh'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch/bin'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch/lib/pkgconfig/cpp_launch.pc'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch/lib/python3.10/site-packages'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch/bin'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.ps1'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.dsv'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.sh'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.bash'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.zsh'
+[1.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/accesslabros2/access_ws/install/cpp_launch/share/colcon-core/packages/cpp_launch)
+[1.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_launch)
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch' for CMake module files
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch' for CMake config files
+[1.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_launch', 'cmake_prefix_path')
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/hook/cmake_prefix_path.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/hook/cmake_prefix_path.dsv'
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/hook/cmake_prefix_path.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch/bin'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch/lib/pkgconfig/cpp_launch.pc'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch/lib/python3.10/site-packages'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/accesslabros2/access_ws/install/cpp_launch/bin'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.dsv'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.sh'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.bash'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/accesslabros2/access_ws/install/cpp_launch/share/cpp_launch/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/accesslabros2/access_ws/install/cpp_launch/share/colcon-core/packages/cpp_launch)
+[1.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.319s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.329s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.335s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/accesslabros2/access_ws/install/local_setup.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/accesslabros2/access_ws/install/_local_setup_util_ps1.py'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/accesslabros2/access_ws/install/setup.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/accesslabros2/access_ws/install/local_setup.sh'
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/accesslabros2/access_ws/install/_local_setup_util_sh.py'
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/accesslabros2/access_ws/install/setup.sh'
+[1.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/accesslabros2/access_ws/install/local_setup.bash'
+[1.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/accesslabros2/access_ws/install/setup.bash'
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/accesslabros2/access_ws/install/local_setup.zsh'
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/accesslabros2/access_ws/install/setup.zsh'

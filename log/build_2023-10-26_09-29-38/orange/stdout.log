@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/orange/orange.egg-info/PKG-INFO
+writing dependency_links to ../../build/orange/orange.egg-info/dependency_links.txt
+writing entry points to ../../build/orange/orange.egg-info/entry_points.txt
+writing requirements to ../../build/orange/orange.egg-info/requires.txt
+writing top-level names to ../../build/orange/orange.egg-info/top_level.txt
+reading manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+writing manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/orange/orange.egg-info to /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange-0.0.0-py3.10.egg-info
+running install_scripts
+Installing webcam_driver script to /home/accesslabros2/access_ws/install/orange/lib/orange
+writing list of installed files to '/home/accesslabros2/access_ws/build/orange/install.log'

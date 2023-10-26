@@ -1,0 +1,22 @@
+[0.067s] Invoking command in '/home/accesslabros2/access_ws/build/green': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --build /home/accesslabros2/access_ws/build/green -- -j20 -l20
+[0.097s] [100%] Built target color_filter
+[0.223s] Invoked command in '/home/accesslabros2/access_ws/build/green' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --build /home/accesslabros2/access_ws/build/green -- -j20 -l20
+[0.245s] Invoking command in '/home/accesslabros2/access_ws/build/green': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --install /home/accesslabros2/access_ws/build/green
+[0.249s] -- Install configuration: ""
+[0.249s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/lib/green/color_filter
+[0.249s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/ament_index/resource_index/package_run_dependencies/green
+[0.249s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/ament_index/resource_index/parent_prefix_path/green
+[0.249s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/environment/ament_prefix_path.sh
+[0.249s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/environment/ament_prefix_path.dsv
+[0.249s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/environment/path.sh
+[0.250s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/environment/path.dsv
+[0.250s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/local_setup.bash
+[0.250s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/local_setup.sh
+[0.250s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/local_setup.zsh
+[0.250s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/local_setup.dsv
+[0.250s] -- Installing: /home/accesslabros2/access_ws/install/green/share/green/package.dsv
+[0.250s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/ament_index/resource_index/packages/green
+[0.251s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/cmake/greenConfig.cmake
+[0.251s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/cmake/greenConfig-version.cmake
+[0.251s] -- Up-to-date: /home/accesslabros2/access_ws/install/green/share/green/package.xml
+[0.251s] Invoked command in '/home/accesslabros2/access_ws/build/green' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/accesslabros2/access_ws/install/orange:/opt/ros/humble /usr/bin/cmake --install /home/accesslabros2/access_ws/build/green

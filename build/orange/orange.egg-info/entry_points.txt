@@ -1,0 +1,3 @@
+[console_scripts]
+webcam_driver = orange.webcam_driver:main
+

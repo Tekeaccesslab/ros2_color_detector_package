@@ -1,0 +1,37 @@
+[0.381s] Invoking command in '/home/accesslabros2/access_ws/src/orange': PYTHONPATH=/home/accesslabros2/access_ws/build/orange/prefix_override:/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/orange build --build-base /home/accesslabros2/access_ws/build/orange/build install --record /home/accesslabros2/access_ws/build/orange/install.log --single-version-externally-managed
+[0.501s] running egg_info
+[0.501s] creating ../../build/orange/orange.egg-info
+[0.501s] writing ../../build/orange/orange.egg-info/PKG-INFO
+[0.501s] writing dependency_links to ../../build/orange/orange.egg-info/dependency_links.txt
+[0.501s] writing entry points to ../../build/orange/orange.egg-info/entry_points.txt
+[0.501s] writing requirements to ../../build/orange/orange.egg-info/requires.txt
+[0.502s] writing top-level names to ../../build/orange/orange.egg-info/top_level.txt
+[0.504s] writing manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+[0.505s] reading manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+[0.505s] writing manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+[0.506s] running build
+[0.506s] running build_py
+[0.506s] creating /home/accesslabros2/access_ws/build/orange/build
+[0.506s] creating /home/accesslabros2/access_ws/build/orange/build/lib
+[0.506s] creating /home/accesslabros2/access_ws/build/orange/build/lib/orange
+[0.506s] copying orange/webcam_driver.py -> /home/accesslabros2/access_ws/build/orange/build/lib/orange
+[0.506s] copying orange/__init__.py -> /home/accesslabros2/access_ws/build/orange/build/lib/orange
+[0.506s] running install
+[0.506s] running install_lib
+[0.506s] creating /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange
+[0.506s] copying /home/accesslabros2/access_ws/build/orange/build/lib/orange/webcam_driver.py -> /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange
+[0.506s] copying /home/accesslabros2/access_ws/build/orange/build/lib/orange/__init__.py -> /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange
+[0.506s] byte-compiling /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange/webcam_driver.py to webcam_driver.cpython-310.pyc
+[0.507s] byte-compiling /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange/__init__.py to __init__.cpython-310.pyc
+[0.507s] running install_data
+[0.507s] creating /home/accesslabros2/access_ws/install/orange/share/ament_index
+[0.507s] creating /home/accesslabros2/access_ws/install/orange/share/ament_index/resource_index
+[0.507s] creating /home/accesslabros2/access_ws/install/orange/share/ament_index/resource_index/packages
+[0.507s] copying resource/orange -> /home/accesslabros2/access_ws/install/orange/share/ament_index/resource_index/packages
+[0.507s] copying package.xml -> /home/accesslabros2/access_ws/install/orange/share/orange
+[0.507s] running install_egg_info
+[0.508s] Copying ../../build/orange/orange.egg-info to /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange-0.0.0-py3.10.egg-info
+[0.508s] running install_scripts
+[0.518s] Installing webcam_driver script to /home/accesslabros2/access_ws/install/orange/lib/orange
+[0.518s] writing list of installed files to '/home/accesslabros2/access_ws/build/orange/install.log'
+[0.530s] Invoked command in '/home/accesslabros2/access_ws/src/orange' returned '0': PYTHONPATH=/home/accesslabros2/access_ws/build/orange/prefix_override:/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/orange build --build-base /home/accesslabros2/access_ws/build/orange/build install --record /home/accesslabros2/access_ws/build/orange/install.log --single-version-externally-managed

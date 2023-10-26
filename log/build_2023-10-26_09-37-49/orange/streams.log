@@ -1,0 +1,21 @@
+[0.365s] Invoking command in '/home/accesslabros2/access_ws/src/orange': PYTHONPATH=/home/accesslabros2/access_ws/build/orange/prefix_override:/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/orange build --build-base /home/accesslabros2/access_ws/build/orange/build install --record /home/accesslabros2/access_ws/build/orange/install.log --single-version-externally-managed
+[0.483s] running egg_info
+[0.484s] writing ../../build/orange/orange.egg-info/PKG-INFO
+[0.484s] writing dependency_links to ../../build/orange/orange.egg-info/dependency_links.txt
+[0.484s] writing entry points to ../../build/orange/orange.egg-info/entry_points.txt
+[0.484s] writing requirements to ../../build/orange/orange.egg-info/requires.txt
+[0.484s] writing top-level names to ../../build/orange/orange.egg-info/top_level.txt
+[0.487s] reading manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+[0.487s] writing manifest file '../../build/orange/orange.egg-info/SOURCES.txt'
+[0.487s] running build
+[0.487s] running build_py
+[0.487s] running install
+[0.487s] running install_lib
+[0.488s] running install_data
+[0.488s] running install_egg_info
+[0.489s] removing '/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange-0.0.0-py3.10.egg-info' (and everything under it)
+[0.489s] Copying ../../build/orange/orange.egg-info to /home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages/orange-0.0.0-py3.10.egg-info
+[0.489s] running install_scripts
+[0.499s] Installing webcam_driver script to /home/accesslabros2/access_ws/install/orange/lib/orange
+[0.499s] writing list of installed files to '/home/accesslabros2/access_ws/build/orange/install.log'
+[0.511s] Invoked command in '/home/accesslabros2/access_ws/src/orange' returned '0': PYTHONPATH=/home/accesslabros2/access_ws/build/orange/prefix_override:/home/accesslabros2/access_ws/install/orange/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/orange build --build-base /home/accesslabros2/access_ws/build/orange/build install --record /home/accesslabros2/access_ws/build/orange/install.log --single-version-externally-managed
