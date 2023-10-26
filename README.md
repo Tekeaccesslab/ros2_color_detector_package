@@ -20,4 +20,7 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
 git clone https://github.com/antmicro/ros2-camera-node.git
 cd ros2-camera-node/
 
- [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+<clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
+  Copy path
+</clipboard-copy>
+<div id="blob-path">src/index.js</div>
