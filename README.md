@@ -4,10 +4,10 @@ The Python python package capture Frame from our webcam camera and publish it as
 The C++ package will Subscribe to this Topic and Detects only the blue color 
 
 # Dependencies
-1. ## ROS2 HUMBLE
-2. ## OPENCV
-3. ## Cv_bridge
-4. ## image_transport
+  * ROS2 HUMBLE
+  * OPENCV
+  * Cv_bridge
+  * Image_transport
 
 * Bullet list
 
