@@ -27,3 +27,34 @@ cd ros2-camera-node/
 
 `${copyCodeBlock('<div>Thundercats</div>')}`
 copyCodeBlock('<div>Thundercats</div>')
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+<pre>
+<code id="code-snippet">
+// Your code here
+</code>
+</pre>
+
+<button class="btn" data-clipboard-target="#code-snippet">Copy</button>
+
+<script>
+var clipboard = new ClipboardJS('.btn');
+
+clipboard.on('success', function(e) {
+    e.clearSelection();
+});
+</script>
+
+<style>
+.btn {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+</style>
