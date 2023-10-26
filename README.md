@@ -17,4 +17,6 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
     cd access_ws
 
     colcon build
+git clone https://github.com/antmicro/ros2-camera-node.git
+cd ros2-camera-node/
   
