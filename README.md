@@ -13,6 +13,8 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
   Follow the steps below to build the project:
   * Clone the repository and go to the newly created directory:
     git clone https://github.com/Tekeaccesslab/ros2_color_detector_package.git
+
     cd access_ws
+
     colcon build
   
