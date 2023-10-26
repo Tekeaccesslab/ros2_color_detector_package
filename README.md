@@ -46,6 +46,31 @@ ros2 launch cpp_launch launch.py
 </pre>
 
 
+Will display
+accesslabros2@accesslabros2:~/access_ws$ ros2 launch cpp_launch launch.py
+[INFO] [launch]: All log files can be found below /home/accesslabros2/.ros/log/2023-10-26-11-42-17-741469-accesslabros2-34106
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [color_filter-1]: process started with pid [34107]
+[INFO] [webcam_driver-2]: process started with pid [34109]
+[webcam_driver-2] [INFO] [1698334938.622328104] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334938.630429642] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334938.664125898] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334938.737682443] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334938.837957318] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334938.937327735] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.036417684] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.137448575] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.236349191] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.337476786] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.436026503] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.536262120] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.636032629] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.737602582] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.833383762] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334939.934272728] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334940.038331260] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334940.137579561] [webcam_image_publisher]: Publishing video frame
+[webcam_driver-2] [INFO] [1698334940.237943501] [webcam_image_publisher]: Publishing video frame
 
 
 
