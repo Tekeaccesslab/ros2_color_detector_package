@@ -21,4 +21,14 @@ cd access_ws/
 </code>
 </pre>
 
+<button class="btn" data-clipboard-target="#code-snippet"></button>
+
+<pre>
+<code>
+. install/setup.bash
+</code>
+</pre>
+
+
+
 
