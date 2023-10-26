@@ -11,23 +11,14 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
 
 # Building the Webcam Node
   Follow the steps below to build the project:
-  * Clone the repository and go to the newly created directory:
-    git clone https://github.com/Tekeaccesslab/ros2_color_detector_package.git
-
-    cd access_ws
-
-    colcon build
-git clone https://github.com/antmicro/ros2-camera-node.git
-cd ros2-camera-node/
-
-
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
 
 <pre>
 <code id="code-snippet">
 git clone https://github.com/antmicro/ros2-camera-node.git
+cd access_ws
+
 </code>
 </pre>
 
