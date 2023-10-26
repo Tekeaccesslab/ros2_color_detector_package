@@ -13,7 +13,6 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
   Follow the steps below to build the project:
 
 <script src="https://github.com/Tekeaccesslab/ros2_color_detector_package.git"></script>
-
 <pre>
 <code id="code-snippet">
 git clone https://github.com/antmicro/ros2-camera-node.git
