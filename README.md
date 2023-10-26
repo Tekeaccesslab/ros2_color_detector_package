@@ -38,6 +38,15 @@ colcon build
 </code>
 </pre>
 
+And run 
+<pre>
+<code>
+ros2 launch cpp_launch launch.py
+</code>
+</pre>
+
+
+
 
 
 
