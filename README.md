@@ -10,6 +10,8 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
 4. ## image_transport
 
 * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+
+  * Nested bullet
+
+     * Sub-nested bullet etc
+* Bullet list item 2
