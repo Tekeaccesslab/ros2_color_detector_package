@@ -26,6 +26,7 @@ git clone https://github.com/Tekeaccesslab/ros2_color_detector_package.git
 <pre>
 <code>
 cd access_ws/
+colcon build
 </code>
 </pre>
 
