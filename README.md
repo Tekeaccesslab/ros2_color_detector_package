@@ -12,7 +12,7 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
 # Building the Webcam Node
   Follow the steps below to build the project:
 
-<script src="https://github.com/Tekeaccesslab/ros2_color_detector_package.git"></script>
+
 <pre>
 <code id="code-snippet">
 git clone https://github.com/antmicro/ros2-camera-node.git
@@ -31,13 +31,4 @@ clipboard.on('success', function(e) {
 });
 </script>
 
-<style>
-.btn {
-    background-color: #0074d9;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-</style>
+
