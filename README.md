@@ -14,12 +14,10 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
 
 <button class="btn" data-clipboard-target="#code-snippet">Copy</button>
 
-<script>
-var clipboard = new ClipboardJS('.btn');
-
-clipboard.on('success', function(e) {
-    e.clearSelection();
-});
-</script>
+<pre>
+<code>
+// Your code here
+</code>
+</pre>
 
 
