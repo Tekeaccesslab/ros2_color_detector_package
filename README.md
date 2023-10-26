@@ -20,13 +20,6 @@ The C++ package will Subscribe to this Topic and Detects only the blue color
 git clone https://github.com/antmicro/ros2-camera-node.git
 cd ros2-camera-node/
 
-<clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
-  Copy path
-</clipboard-copy>
-<div id="blob-path">src/index.js</div>
-
-`${copyCodeBlock('<div>Thundercats</div>')}`
-copyCodeBlock('<div>Thundercats</div>')
 
 
 
@@ -34,7 +27,7 @@ copyCodeBlock('<div>Thundercats</div>')
 
 <pre>
 <code id="code-snippet">
-// Your code here
+git clone https://github.com/antmicro/ros2-camera-node.git
 </code>
 </pre>
 
