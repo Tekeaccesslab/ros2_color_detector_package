@@ -26,3 +26,4 @@ cd ros2-camera-node/
 <div id="blob-path">src/index.js</div>
 
 `${copyCodeBlock('<div>Thundercats</div>')}`
+copyCodeBlock('<div>Thundercats</div>')
