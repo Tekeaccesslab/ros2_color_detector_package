@@ -68,7 +68,7 @@ accesslabros2@accesslabros2:~/access_ws$ ros2 launch cpp_launch launch.py
 </pre>
 
 
-! [Blue2Red_Converter!](/home/accesslabros2/access_ws/Blue_2_Red_converter_PKG.jpg)
 
+/home/accesslabros2/access_ws/ros2_color_detector_package/Blue_2_Red.jpg
 
 
