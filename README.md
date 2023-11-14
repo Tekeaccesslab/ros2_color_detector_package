@@ -67,8 +67,8 @@ accesslabros2@accesslabros2:~/access_ws$ ros2 launch cpp_launch launch.py
 </code>
 </pre>
 
+![Blue_2_Red](https://github.com/Tekeaccesslab/ros2_color_detector_package/assets/146024181/c199fae7-aad8-45a4-a72b-7430793dd469)
 
 
-/home/accesslabros2/access_ws/ros2_color_detector_package/Blue_2_Red.jpg
 
 
