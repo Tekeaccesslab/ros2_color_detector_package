@@ -28,6 +28,24 @@ public:
 
         declare_parameter<int>("color_threshold", 100);
         get_parameter("color_threshold", color_threshold_);
+
+        // declared parameters for lower_Blue in HSV to add parameters from launch
+        declare_parameter<int>("h_low", 0);
+        declare_parameter<int>("s_low", 0);
+        declare_parameter<int>("v_low", 0);
+       // declared parameters for upper_Blue in HSV
+        declare_parameter<int>("h_high", 0);      
+        declare_parameter<int>("s_high", 0);       
+        declare_parameter<int>("v_high", 0);
+        // Get H,S and V for lower and higher Blue
+        get_parameter("h_low", h_low);
+        get_parameter("s_low", s_low);
+        get_parameter("v_low", v_low);
+
+        get_parameter("h_high", h_high);
+        get_parameter("s_high", s_high);       
+        get_parameter("v_high", v_high);
+
     }
 
 private:
@@ -46,9 +64,12 @@ private:
     cv::cvtColor(cv_ptr->image, hsvImage, cv::COLOR_BGR2HSV);
 
     // Define the lower and upper bounds for blue color in HSV
-    cv::Scalar lowerBlue = cv::Scalar(100, 50, 50);
-    cv::Scalar upperBlue = cv::Scalar(140, 255, 255);
+    // cv::Scalar lowerBlue = cv::Scalar(100, 50, 50);
+    // cv::Scalar upperBlue = cv::Scalar(140, 255, 255);
 
+    //Get the lower and upper bounds for blue color in HSV from launch
+    cv::Scalar lowerBlue = cv::Scalar(h_low, s_low, v_low);
+    cv::Scalar upperBlue = cv::Scalar(h_high, s_high, v_high);
     // Threshold the image to detect blue color
     cv::Mat blueMask;
     cv::inRange(hsvImage, lowerBlue, upperBlue, blueMask);
@@ -80,6 +101,13 @@ private:
     cv::waitKey(30);
     
     }
+    int h_low;
+    int s_low;
+    int v_low;
+
+    int h_high;   
+    int s_high;  
+    int v_high;
 
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
     int color_threshold_;
