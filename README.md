@@ -1,6 +1,6 @@
 # ros2_color_detector_package
-This package detects blue colors from frame from webcam camera and change the detected blue pixels to red. 
-The Python python package capture Frame from our webcam camera and publish it as /webcam/image_raw Topic  Adding the current time on the image 
+This package turns detected blue pixels into red by detecting blue color in an image captured by a webcam. 
+The webcam camera's Frame is captured by the Python program and published as /webcam/image_raw. Subject: Including the current time in the picture 
 The C++ package will Subscribe to this Topic and Detects only the blue color 
 
 # Dependencies
